@@ -38,4 +38,4 @@ This project analyzes the factors influencing students' academic performance usi
 
 ## Contact
 - **Email**: zahira.career@gmail.com
-- **GitHub**: [Your GitHub Profile](https://github.com/your-profile)
+- **GitHub**: (https://github.com/Zahira313/my-portfolio)
