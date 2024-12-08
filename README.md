@@ -22,10 +22,10 @@ Thank you for visiting!
 - **Description**: Developed models for predicting diabetes risk with high accuracy.
 - **Highlights**: Logistic Regression achieved 98% accuracy, and DBSCAN produced the best clustering results.
   
-### [2. Customer Segmentation](./Customer_Segmentation)
-- **Tools**: R, ggplot2
-- **Description**: Clustered customers based on purchasing behavior.
-- **Highlights**: Used K-Means clustering and visualized customer groups.
+### [2. Marketing Analytics and Behavioral Science](./Marketing_Analytics)
+- **Tools**: Python, Scikit-learn, Matplotlib, Advanced Excel
+- **Description**: Analyzed bank customer behavior and segmented customers using K-Means clustering.
+- **Highlights**: Identified key customer groups and provided actionable marketing insights.
 
 ...
 
