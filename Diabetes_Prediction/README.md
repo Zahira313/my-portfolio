@@ -45,4 +45,4 @@ This project demonstrates the potential of machine learning in healthcare and ai
 ## Contact
 For inquiries, please contact:
 - **Email**: zahira.career@gmail.com
-- **GitHub**: 
+- **GitHub**: https://github.com/Zahira313/my-portfolio
