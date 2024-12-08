@@ -17,11 +17,11 @@ Thank you for visiting!
 - Machine Learning
 
 ## Projects
-### [1. Sales Analysis](./Sales_Analysis)
-- **Tools**: Python, Pandas, Matplotlib
-- **Description**: Analyzed sales trends to identify key drivers of revenue growth.
-- **Highlights**: Cleaned raw data, created visual dashboards, and provided actionable insights.
-
+### [1. Predicting Diabetes Using Machine Learning](./Diabetes_Prediction)
+- **Tools**: Python, Scikit-learn, Matplotlib, Minitab, SPSS
+- **Description**: Developed models for predicting diabetes risk with high accuracy.
+- **Highlights**: Logistic Regression achieved 98% accuracy, and DBSCAN produced the best clustering results.
+  
 ### [2. Customer Segmentation](./Customer_Segmentation)
 - **Tools**: R, ggplot2
 - **Description**: Clustered customers based on purchasing behavior.
