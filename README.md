@@ -27,6 +27,10 @@ Thank you for visiting!
 - **Description**: Analyzed bank customer behavior and segmented customers using K-Means clustering.
 - **Highlights**: Identified key customer groups and provided actionable marketing insights.
 
+### [3. Student Performance Analysis](./Student_Performance_Analysis)
+- **Tools**: Python, Excel, SPSS
+- **Description**: Analyzed factors affecting students' academic performance and aspirations for higher education.
+- **Highlights**: Used regression models and visualizations to uncover key insights.
 ...
 
 ## Contact
