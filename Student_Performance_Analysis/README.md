@@ -37,5 +37,5 @@ This project analyzes the factors influencing students' academic performance usi
   - ROC Curve for Logistic Regression
 
 ## Contact
-- **Email**: your-email@example.com
+- **Email**: zahira.career@gmail.com
 - **GitHub**: [Your GitHub Profile](https://github.com/your-profile)
