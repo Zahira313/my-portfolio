@@ -5,7 +5,7 @@ This project develops predictive models to identify the risk of diabetes based o
 
 ## Tools Used
 - **Programming Languages**: Python (Jupytr Notebook)
-- **Libraries**: Scikit-learn, Matplotlib, Pandas, NumPy, Seaborn
+- **Libraries**: Scikit-Learn, Matplotlib, Pandas, NumPy, Seaborn
 - **Additional Tools**: Minitab, SPSS
 
 ## Key Highlights
@@ -16,7 +16,9 @@ This project develops predictive models to identify the risk of diabetes based o
 
 ## Steps
 1. **Data Preprocessing**:
-   - Cleaned and transformed the dataset using Python [code:](Data-preprocess.pdf).
+   - Cleaned and transformed the dataset using Python
+   The data preprocessing details are provided in the PDF report. You can download and view it locally:
+      [Download Data Preprocessing PDF](./Data-preprocess.pdf)
    - Applied standardization and discretization techniques.
 
 2. **Clustering**:
@@ -27,20 +29,24 @@ This project develops predictive models to identify the risk of diabetes based o
    - Evaluated models like Decision Tree, K-Nearest Neighbors, and Logistic Regression.
    - Logistic Regression performed best, achieving high accuracy, precision, and recall.
 
+<!--
 ## Visualizations
 ### ROC Curve
 ![ROC Curve](roc_curve.png)
 
 ### Clustering Plot
 ![DBSCAN Clusters](clusters.png)
+-->
 
 ## Conclusion
 This project demonstrates the potential of machine learning in healthcare and aids early intervention. Future work could incorporate additional features like genetic or dietary data for improved prediction.
 
+<!--
 ## Files
 - **Report**: [Predicting Diabetes using ML.pdf](Predicting_Diabetes_using_ML.pdf)
 - **Code**: Python scripts and notebooks for data analysis and modeling.
 - **Visualizations**: Images and graphs generated during the project.
+-->
 
 ## Contact
 For inquiries, please contact:
