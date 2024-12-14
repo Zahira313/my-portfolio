@@ -19,7 +19,7 @@ This project develops predictive models to identify the risk of diabetes based o
 1. **Data Preprocessing**:
    - Cleaned and transformed the dataset using Python.
    - Applied standardization and discretization techniques.
-   - [View Jupyter Notebook for Data Preprocessing](./Data_Preprocessing.ipynb)
+   - [View Jupyter Notebook for Data Preprocessing](./Data-preprocess.ipynb)
 
 2. **Clustering**:
    - Used DBSCAN, achieving a silhouette score of 0.98.
