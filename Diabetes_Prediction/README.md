@@ -16,7 +16,7 @@ This project develops predictive models to identify the risk of diabetes based o
 
 ## Steps
 1. **Data Preprocessing**:
-   - Cleaned and transformed the dataset using Python.
+   - Cleaned and transformed the dataset using Python [code:](Data-preprocess.pdf).
    - Applied standardization and discretization techniques.
 
 2. **Clustering**:
