@@ -12,7 +12,8 @@ Thank you for visiting!
 
 ## Skills
 - Data Cleaning and Wrangling
-- Data Visualization (Matplotlib, Seaborn, Tableau, PowerBI)
+- Exploratory Data Analysis: EDA
+- Data Visualization (Matplotlib, Seaborn, Excel, Tableau, PowerBI)
 - Statistical Analysis
 - Machine Learning
 
