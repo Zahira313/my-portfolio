@@ -15,18 +15,20 @@ This project develops predictive models to identify the risk of diabetes based o
 - Tested various classification models, with Logistic Regression achieving 98% accuracy.
 
 ## Steps
+
 1. **Data Preprocessing**:
-   - Cleaned and transformed the dataset using Python
+   - Cleaned and transformed the dataset using Python.
    - Applied standardization and discretization techniques.
+   - [View Jupyter Notebook for Data Preprocessing](./Data_Preprocessing.ipynb)
 
 2. **Clustering**:
-   - Used Clustering models like K-means, Hierarchical, DBSCAN, Optics
-   - DBSCAN: achieved a silhouette score of 0.98.
+   - Used DBSCAN, achieving a silhouette score of 0.98.
+   - [View Jupyter Notebook for Clustering](./Clustering.ipynb)
 
-4. **Classification**:
+3. **Classification**:
    - Evaluated models like Decision Tree, K-Nearest Neighbors, and Logistic Regression.
    - Logistic Regression performed best, achieving high accuracy, precision, and recall.
-
+   - [View Jupyter Notebook for Classification](./Classification.ipynb)
 <!--
 ## Visualizations
 ### ROC Curve
