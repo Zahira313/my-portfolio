@@ -3,6 +3,10 @@
 ## Overview
 This project develops predictive models to identify the risk of diabetes based on several factors, using machine learning techniques. The goal is to enable early diagnosis and preventative care.
 
+## Dataset
+The dataset is downloaded from Kaggle [Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
+
+
 ## Tools Used
 - **Programming Languages**: Python (Jupytr Notebook)
 - **Libraries**: Scikit-Learn, Matplotlib, Pandas, NumPy, Seaborn
