@@ -17,7 +17,7 @@ Thank you for visiting!
 - Statistical Analysis
 - Machine Learning
 
-## Projects
+## Machine Learning Projects
 ### [1. Predicting Diabetes Using Machine Learning](./Diabetes_Prediction)
 - **Tools**: Python, Scikit-learn, Matplotlib, Minitab, SPSS
 - **Description**: Developed models for predicting diabetes risk with high accuracy.
@@ -33,6 +33,10 @@ Thank you for visiting!
 - **Description**: Analyzed factors affecting students' academic performance and aspirations for higher education.
 - **Highlights**: Used regression models and visualizations to uncover key insights.
 ...
+
+## Tableau Visualizations
+Explore my Tableau projects here:  
+[View My Tableau Dashboard](https://public.tableau.com/app/profile/zahira.mohammed/vizzes)
 
 ## Contact
 Feel free to reach out to me via:
