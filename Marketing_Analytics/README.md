@@ -16,7 +16,7 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
 - **Clustering**:
   - Used K-Means clustering to segment customers into distinct profiles.
 
-## Results
+<!--## Results
 ### Visualizations
 #### Elbow Plot
 ![Elbow Plot](elbow_plot.png)
@@ -31,6 +31,7 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
 - **Report**: [Marketing Analytics Report](Marketing_2604378.pdf)
 - **Code**: Python scripts for data preprocessing, analysis, and clustering.
 - **Visualizations**: Key plots used in the analysis.
+-->
 
 ## Conclusion
 This project identifies distinct customer segments, providing actionable insights for tailored marketing strategies.
