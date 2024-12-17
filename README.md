@@ -17,7 +17,7 @@ Thank you for visiting!
 - Statistical Analysis
 - Machine Learning
 
-## Machine Learning Projects
+## Data Analytics Projects
 ### [1. Predicting Diabetes Using Machine Learning](./Diabetes_Prediction)
 - **Tools**: Python, Scikit-learn, Matplotlib, Minitab, SPSS
 - **Description**: Developed models for predicting diabetes risk with high accuracy.
