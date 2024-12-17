@@ -32,8 +32,14 @@ This project develops predictive models to identify the risk of diabetes based o
 3. **Classification**:
    - Evaluated models like Decision Tree, K-Nearest Neighbors, and Logistic Regression.
    - Logistic Regression performed best, achieving high accuracy, precision, and recall.
-   - [View Jupyter Notebook for Classification](./Classification.ipynb)
+   - View Jupyter Notebook for Classification:
+   - [Decision_Tree](./Decision_Tree.ipynb)
    - [KNN](./KNN_Clustering.ipynb)
+   - [NBC](./NBC.ipynb)
+  
+4. **Regression Analysis**:
+   - Performed Logistic Regression for the binary target variable.
+   - 
 <!--
 ## Visualizations
 ### ROC Curve
