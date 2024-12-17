@@ -25,11 +25,15 @@ This project develops predictive models to identify the risk of diabetes based o
    - Used DBSCAN, achieving a silhouette score of 0.98.
    - View Jupyter Notebook for different Clustering Techniques used:
    - [K-Mean](./K-Mean_Clustering.ipynb)
+   - [Hierarchical_clustering](./Hierarchical_clustering.ipynb)
+   - [optics](./optics.ipynb)
+   - [DBSCAN](./DBSCAN.ipynb)
 
 3. **Classification**:
    - Evaluated models like Decision Tree, K-Nearest Neighbors, and Logistic Regression.
    - Logistic Regression performed best, achieving high accuracy, precision, and recall.
    - [View Jupyter Notebook for Classification](./Classification.ipynb)
+   - [KNN](./KNN_Clustering.ipynb)
 <!--
 ## Visualizations
 ### ROC Curve
