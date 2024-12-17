@@ -39,7 +39,8 @@ This project develops predictive models to identify the risk of diabetes based o
   
 4. **Regression Analysis**:
    - Performed Logistic Regression for the binary target variable.
-   - 
+   -  The AUC score of 0.92 is very high, showing stellar performance.
+   -  View Jupyter Notebook for Logit: [Logit_Regression](./Logit_Regression.ipynb)
 <!--
 ## Visualizations
 ### ROC Curve
