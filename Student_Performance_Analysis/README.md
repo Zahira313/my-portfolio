@@ -27,7 +27,7 @@ This project analyzes the factors influencing students' academic performance usi
    - Gender and internet access positively correlate with academic performance.
    - Age negatively correlates with grades.
 2. **Logistic Regression**:
-   - Predicts the likelihood of aspiring for graduate education with 80% accuracy and an AUC of 0.859 [(Jupytr notebook)(./Logistic_Regression.ipynb)
+   - Predicts the likelihood of aspiring for graduate education with 80% accuracy and an AUC of 0.859 [(Jupytr notebook) (./Logistic_Regression.ipynb)
 
 <!--## Files
 - **Report**: [Student Performance Analysis Report](2504378_MABS.pdf)
@@ -36,4 +36,6 @@ This project analyzes the factors influencing students' academic performance usi
   - Histogram of Grades
   - Pie Chart of Parental Status
   - ROC Curve for Logistic Regression }} -->
+
+ 
 
