@@ -26,6 +26,7 @@ This project analyzes the factors influencing students' academic performance usi
 1. **Regression Analysis**:
    - Gender and internet access positively correlate with academic performance.
    - Age negatively correlates with grades.
+   - [(The Excel worksheet for the analysis can be downloaded here)](./Excel_Analysis_MultivariateRegression.xlsx)
 2. **Logistic Regression**:
    - Predicts the likelihood of aspiring for graduate education with 80% accuracy and an AUC of 0.859 [(Jupytr notebook)](./Logistic_Regression.ipynb)
 
