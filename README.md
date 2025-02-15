@@ -33,7 +33,8 @@ Thank you for visiting!
 - **Description**: Analyzed factors affecting students' academic performance and aspirations for higher education.
 - **Highlights**: Used regression models and visualizations to uncover key insights.
 
-
+##**EXCEL Projects**
+Explore my Excel worksheets here: [Excel Worksheets](./Excel) 
 ## Tableau Visualizations
 Explore my Tableau projects here:  
 [View My Tableau Dashboard](https://public.tableau.com/app/profile/zahira.mohammed/vizzes)
