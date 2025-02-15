@@ -13,7 +13,7 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
 - **EDA**: Exploratory Data Analysis [(data cleaning)](./EDA_banking_data_marketing.ipynb)
                                      [(Data Visualisation)](./Data_Visualisation.ipynb) 
 - **Statistical Analysis**:
-  - Conducted t-tests to compare subscriber and non-subscriber characteristics [download Excel file for a complete analysis)](./Excel_Anaysis.xlsx).
+  - Conducted t-tests to compare subscriber and non-subscriber characteristics [download Excel file for a complete analysis)](./Excel_Analysis.xlsx).
   - Performed factor analysis to identify underlying components.
 - **Clustering**:
   - Used K-Means clustering to segment customers into distinct profiles [(K-means-Elbow method- 3D clustering image)](./k-mean_clustering.ipynb) 
