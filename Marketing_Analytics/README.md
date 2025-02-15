@@ -16,7 +16,7 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
   - Conducted t-tests to compare subscriber and non-subscriber characteristics.
   - Performed factor analysis to identify underlying components.
 - **Clustering**:
-  - Used K-Means clustering to segment customers into distinct profiles [(K-means Juptyr notebook)](./k-mean_clustering.ipynb) 
+  - Used K-Means clustering to segment customers into distinct profiles [(K-means-Elbow method- 3D clustering image)](./k-mean_clustering.ipynb) 
 
 <!--## Results
 ### Visualizations
