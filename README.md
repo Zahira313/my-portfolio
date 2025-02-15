@@ -32,7 +32,7 @@ Thank you for visiting!
 - **Tools**: Python, Excel, SPSS
 - **Description**: Analyzed factors affecting students' academic performance and aspirations for higher education.
 - **Highlights**: Used regression models and visualizations to uncover key insights.
-...
+
 
 ## Tableau Visualizations
 Explore my Tableau projects here:  
