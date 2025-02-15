@@ -11,7 +11,7 @@ Feel free to explore my projects, and don’t hesitate to reach out if you’d l
 Thank you for visiting!
 
 ## Skills
-- Data Cleaning and Wrangling
+- Data Cleaning and Wrangling (Pandas, NumPy, Excel, SQL)
 - Exploratory Data Analysis: EDA
 - Data Visualization (Matplotlib, Seaborn, Excel, Tableau, PowerBI)
 - Statistical Analysis
