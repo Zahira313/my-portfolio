@@ -20,22 +20,20 @@ This project analyzes the factors influencing students' academic performance usi
   - Distribution of grades and parental status.
   - Boxplot of grades.
   - ROC Curve for Logistic Regression Model.
+  - Sensitivity and Specificity plot.
 
 ## Results
 1. **Regression Analysis**:
    - Gender and internet access positively correlate with academic performance.
    - Age negatively correlates with grades.
 2. **Logistic Regression**:
-   - Predicts the likelihood of aspiring for graduate education with 80% accuracy and an AUC of 0.859.
+   - Predicts the likelihood of aspiring for graduate education with 80% accuracy and an AUC of 0.859 [(Jupytr notebook)(./Logistic_Regression.ipynb)
 
-## Files
+<!--## Files
 - **Report**: [Student Performance Analysis Report](2504378_MABS.pdf)
 - **Code**: Analysis scripts used for regression and visualization.
 - **Visualizations**:
   - Histogram of Grades
   - Pie Chart of Parental Status
-  - ROC Curve for Logistic Regression
+  - ROC Curve for Logistic Regression }} -->
 
-## Contact
-- **Email**: zahira.career@gmail.com
-- **GitHub**: (https://github.com/Zahira313/my-portfolio)
