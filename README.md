@@ -4,7 +4,7 @@ I am Zahira Fathima Mohammed Chickmagalur, a data analyst with over 2 years of p
 
 In this portfolio, you’ll find projects showcasing my ability to work with large datasets, develop insightful dashboards, and apply statistical models to solve real-world problems. Some of the highlights include my NHS Data Visualization project, where I developed a dashboard to uncover healthcare trends, and my Diabetes Prediction Analysis, which applied statistical techniques to identify risk factors.
 
-Beyond technical skills, I am a naturally curious person, and I bring a keen analytical mindset and a collaborative approach to problem-solving. Whether it’s optimizing processes or translating data into meaningful narratives, I am passionate about using data to drive results.
+I am naturally curious and I bring a keen analytical mindset and a collaborative approach to problem-solving. Whether it’s optimizing processes or translating data into meaningful narratives, I am passionate about using data to drive results.
 
 Feel free to explore my projects, and don’t hesitate to reach out if you’d like to connect or discuss potential opportunities.
 
