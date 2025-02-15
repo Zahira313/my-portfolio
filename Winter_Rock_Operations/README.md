@@ -25,7 +25,7 @@ This project analyzes **Winter Rock's sales trends, forecasting, distribution op
 ## 📂 Files in This Project
 | File Name | Description |
 |-----------|------------|
-| [Download Applied Analytics File](./Excel/Applied_Analytics1.xlsx)(./Excel/Applied_Analytics1.xlsx) | Excel file with data analysis, forecasting, and optimization models. |
+| [(Download Winter rock Operations File)](./Excel/Applied_Analytics1.xlsx) | Excel file with data analysis, forecasting, and optimization models. |
 | `README.md` | This file describes the project. |
 
 ---
