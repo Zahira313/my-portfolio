@@ -6,14 +6,14 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
 ## Tools and Techniques
 - **Programming Languages & Tools**: Python, Excel, SPSS
 - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- **Methods**: t-tests, Factor Analysis, K-Means Clustering
+- **Methods**: t-tests (Excel), Factor Analysis (Excel), K-Means Clustering
 
 ## Key Highlights
 - **Data Source**:UCI Machine Learning Repository [(Bank Marketing Dataset)](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 - **EDA**: Exploratory Data Analysis [(data cleaning)](./EDA_banking_data_marketing.ipynb)
                                      [(Data Visualisation)](./Data_Visualisation.ipynb) 
 - **Statistical Analysis**:
-  - Conducted t-tests to compare subscriber and non-subscriber characteristics.
+  - Conducted t-tests to compare subscriber and non-subscriber characteristics [download Excel file for a complete analysis)](./Excel_Anaysis.xlsx).
   - Performed factor analysis to identify underlying components.
 - **Clustering**:
   - Used K-Means clustering to segment customers into distinct profiles [(K-means-Elbow method- 3D clustering image)](./k-mean_clustering.ipynb) 
