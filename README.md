@@ -17,7 +17,7 @@ Thank you for visiting!
 - Statistical Analysis
 - Machine Learning
 
-## Data Analytics Projects
+## 📌 Data Analytics Projects
 ### [1. Predicting Diabetes Using Machine Learning](./Diabetes_Prediction)
 - **Tools**: Python, Minitab, SPSS
 - **Description**: Developed models for predicting diabetes risk with high accuracy.
@@ -33,17 +33,22 @@ Thank you for visiting!
 - **Description**: Analyzed factors affecting students' academic performance and aspirations for higher education.
 - **Highlights**: Used regression models and visualizations to uncover key insights.
 
-## EXCEL Projects
+## 📌 EXCEL Projects
 Explore my Excel worksheets here: [Excel Worksheets](./Excel) 
 
-## Applied Analytics Project
+
+
+## 📌 Applied Analytics Project
 [Winter Rock Operations](./Winter_Rock_Operations)
 
-## Tableau Visualizations
+
+
+## 📌 Tableau Visualizations
 Explore my Tableau projects here:  
 [View My Tableau Dashboard](https://public.tableau.com/app/profile/zahira.mohammed/vizzes)
 
-## Contact
+
+## ☎️ Contact
 Feel free to reach out to me via:
 - **Email**: zahira.career@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/zahira-mohammed
