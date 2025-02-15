@@ -10,11 +10,12 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
 
 ## Key Highlights
 - **Data Source**:UCI Machine Learning Repository [(Bank Marketing Dataset)](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+- **EDA**: Exploratory Data Analysis 
 - **Statistical Analysis**:
   - Conducted t-tests to compare subscriber and non-subscriber characteristics.
   - Performed factor analysis to identify underlying components.
 - **Clustering**:
-  - Used K-Means clustering to segment customers into distinct profiles.
+  - Used K-Means clustering to segment customers into distinct profiles
 
 <!--## Results
 ### Visualizations
