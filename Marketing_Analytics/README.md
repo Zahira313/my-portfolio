@@ -9,7 +9,7 @@ This project analyzes customer behavior using data from a Portuguese bank's mark
 - **Methods**: t-tests, Factor Analysis, K-Means Clustering
 
 ## Key Highlights
-- **Data Source**: UCI Machine Learning Repository (Bank Marketing Dataset)
+- **Data Source**:UCI Machine Learning Repository [(Bank Marketing Dataset)](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 - **Statistical Analysis**:
   - Conducted t-tests to compare subscriber and non-subscriber characteristics.
   - Performed factor analysis to identify underlying components.
