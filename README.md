@@ -34,7 +34,7 @@ Thank you for visiting!
 - **Highlights**: Used regression models and visualizations to uncover key insights.
 
 ## 📌 EXCEL Projects
-Explore my Excel worksheets here: [Excel Worksheets](./Excel) 
+Explore my Excel worksheets here: [Excel Projects](./Excel) 
 
 
 
