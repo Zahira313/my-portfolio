@@ -1,129 +1,161 @@
-## SQL – Data Cleaning, Transformation and Integration
+# End-to-End Marketing Analytics (SQL, Python, PowerBI)
 
-This folder contains the SQL scripts used in the End-to-End Marketing Analytics project.
 
-The SQL stage was used to prepare the raw marketing data before further analysis in Python and visualisation in Power BI. The scripts cover data categorisation, table joins, text cleaning, standardisation, duplicate handling and missing value treatment.
+## Project Overview
 
-SQL Scripts
+This project demonstrates an end-to-end marketing analytics workflow using **SQL Server, Python and Power BI**.
 
-1. Product Price Categories
+The project brings together customer, product, customer journey, social media engagement and customer review data to analyse marketing performance from different perspectives. SQL was used to clean, transform and integrate the data, Python was used to perform sentiment analysis on customer reviews, and Power BI was used to build interactive dashboards for conversion, social media and customer review analysis.
 
-File: [01_product_price_categories.sql](SQL/01_product_price_categories.sql)
+### Project Workflow
 
-This script creates a new PriceCategory field using a CASE statement.
+**Raw Marketing Data → SQL Server → Data Cleaning & Transformation → Python Sentiment Analysis → Power BI → Marketing Insights**
 
-Products are grouped into:
+---
 
-* Low
-* Medium
-* High
+## Business Objectives
 
-This transformation makes it easier to analyse product performance across different price ranges.
+The analysis was designed to answer key marketing questions such as:
 
-⸻
+- How are customers progressing through the journey from product view to purchase?
+- How does conversion performance vary by month and product?
+- Which products generate stronger conversion rates?
+- How is social media content performing in terms of views, clicks and likes?
+- How does engagement vary across different content types?
+- How do customers rate different products?
+- What does customer review text reveal about customer sentiment?
+- How does customer sentiment change over time?
 
-2. Customer and Geography Integration
+---
 
-File: [02_customer_geography_join.sql](SQL/02_customer_geography_join.sql)
+## Tools & Technologies
 
-This script combines customer information with geographic information using a LEFT JOIN on GeographyID.
+| Tool | Purpose |
+|---|---|
+| **SQL Server** | Data cleaning, transformation and integration |
+| **Python** | Customer review sentiment analysis |
+| **Pandas** | Data manipulation and processing |
+| **NLTK VADER** | Text sentiment scoring |
+| **Power BI** | Data modelling, analysis and interactive visualisation |
 
-The resulting dataset includes:
+---
 
-* Customer ID
-* Customer name
-* Email
-* Gender
-* Age
-* Country
-* City
+# 1. SQL – Data Cleaning, Transformation & Integration
 
-This allows customer behaviour and marketing performance to be analysed by location.
+SQL Server was used to prepare the raw datasets before analysis.
 
-⸻
+### SQL Techniques Used
 
-3. Customer Review Cleaning
+`CASE` • `LEFT JOIN` • `REPLACE` • `UPPER` • `CHARINDEX` • `LEFT` • `RIGHT` • `CONVERT` • `FORMAT` • CTEs • `ROW_NUMBER()` • `PARTITION BY` • Window Functions • `AVG() OVER()` • `COALESCE`
 
-File: [03_clean_customer_reviews.sql](SQL/03_clean_customer_reviews.sql)
+[View SQL Scripts](SQL/)
 
-This script cleans the ReviewText field by removing additional whitespace using the REPLACE() function.
+---
 
-A new cleaned table, customer_reviews_cleaned, is then created for use in the Python sentiment analysis stage.
+# 2. Python – Customer Review Sentiment Analysis
 
-The cleaned review data is later used to generate sentiment scores and sentiment categories.
+Python was used to extend the customer review analysis beyond numerical ratings by analysing the text contained within each review.
 
-⸻
+Cleaned customer review data was retrieved from SQL Server and processed using **Pandas and NLTK VADER**.
 
-4. Engagement Data Cleaning and Standardisation
+VADER generated a compound sentiment score ranging from negative to positive sentiment.
 
-File: [04_clean_engagement_data.sql](SQL/04_clean_engagement_data.sql)
+The analysis then combined the **sentiment score with the customer's numerical rating** to classify reviews into:
 
-This script prepares the social media engagement data for analysis.
+- Positive
+- Mixed Positive
+- Neutral
+- Mixed Negative
+- Negative
 
-The main transformations include:
+Sentiment scores were also grouped into defined score ranges to support further analysis and visualisation.
 
-* Standardising ContentType
-* Separating combined views and clicks into individual columns
-* Converting the engagement date into a consistent format
-* Removing newsletter records that were not required for the analysis
+The final enriched customer review dataset contained:
 
-This cleaned data is later used in the Power BI social media dashboard.
+- Review text
+- Customer rating
+- Sentiment score
+- Sentiment category
+- Sentiment score bucket
 
-⸻
+The processed dataset was then exported for use in Power BI.
 
-5. Customer Journey Cleaning
+[View Python Sentiment Analysis](Python/)
 
-File: [05_clean_customer_journey.sql](SQL/05_clean_customer_journey.sql)
+---
 
-This script cleans and prepares the customer journey data.
+# 3. Power BI – Marketing Analytics Dashboard
 
-The main steps include:
+Power BI was used to bring the different areas of the analysis together into an interactive marketing analytics report.
 
-* Using a Common Table Expression (CTE) to identify duplicate records
-* Using ROW_NUMBER() to distinguish duplicate customer journey records
-* Keeping only the first occurrence of each duplicate group
-* Standardising journey stages using UPPER()
-* Replacing missing duration values using the average duration for the corresponding visit date
-* Using COALESCE() to replace null values
+The report contains four dashboard pages.
 
-The cleaned customer journey data is used for conversion and funnel analysis in Power BI.
+## Interactive Analysis
 
-⸻
+The Power BI report includes interactive filters that allow users to explore the results by:
 
-SQL Techniques Demonstrated
+- Year
+- Month
+- Product
+- Sentiment category
 
-This project demonstrates the use of:
+This allows the same report to be used for both high-level monitoring and more detailed product and customer analysis.
 
-* SELECT
-* CASE
-* LEFT JOIN
-* REPLACE
-* UPPER
-* LEFT
-* RIGHT
-* CHARINDEX
-* LEN
-* CONVERT
-* FORMAT
-* WHERE
-* Common Table Expressions (CTEs)
-* ROW_NUMBER()
-* Window functions
-* AVG() OVER()
-* PARTITION BY
-* COALESCE
-* Duplicate detection
-* Missing value handling
+[View Power BI Files](PowerBI/)
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates practical experience across an end-to-end analytics workflow, including:
+
+* SQL data cleaning and transformation
+* Relational data integration
+* Duplicate identification and handling
+* Missing value treatment
 * Data standardisation
-* Data integration
+* Python data processing
+* Natural Language Processing (NLP)
+* Customer sentiment analysis
+* Power BI data visualisation
+* Customer journey and conversion analysis
+* Social media performance analysis
+* Customer review analysis
+* Interactive dashboard development
 
-Role of SQL in the Project
+⸻
 
-SQL forms the first major processing stage of the project.
+# Project Summary
 
-The overall workflow is:
+This project demonstrates how different analytics tools can be combined within a single workflow rather than used independently.
+SQL Server prepared and transformed the source data, Python added text-based customer sentiment information that was not available in the original structured data, and Power BI brought the results together into an interactive report covering conversion, social media engagement and customer feedback.
+The result is an end-to-end marketing analytics solution that moves from raw data preparation through analytical processing to business-facing visualisation.
 
-Raw Marketing Data → SQL Cleaning and Transformation → Python Sentiment Analysis → Power BI Visualisation
+# Repository Structure
 
-The prepared SQL datasets provide the foundation for the later Python and Power BI stages of the project.
+```text
+End_to_End_Marketing_Analytics/
+│
+├── README.md
+│
+├── SQL/
+│   ├── 01_product_price_categories.sql
+│   ├── 02_customer_geography_join.sql
+│   ├── 03_clean_customer_reviews.sql
+│   ├── 04_clean_engagement_data.sql
+│   ├── 05_clean_customer_journey.sql
+│   └── README.md
+│
+├── Python/
+│   └── sentiment_analysis.ipynb
+│
+└── PowerBI/
+    ├── marketing_analytics_dashboard.pbix
+    ├── README.md
+    └── Screenshots/
+        ├── 01_overview_dashboard.png
+        ├── 02_conversion_details.png
+        ├── 03_social_media_details.png
+        └── 04_customer_review_details.png
+
 
