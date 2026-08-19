@@ -131,6 +131,13 @@ This project demonstrates how different analytics tools can be combined within a
 SQL Server prepared and transformed the source data, Python added text-based customer sentiment information that was not available in the original structured data, and Power BI brought the results together into an interactive report covering conversion, social media engagement and customer feedback.
 The result is an end-to-end marketing analytics solution that moves from raw data preparation through analytical processing to business-facing visualisation.
 
+
+# Acknowledgement
+This project was developed as a hands-on learning project based on a YouTube tutorial. I followed the project framework to strengthen my practical experience of working through an end-to-end analytics workflow using SQL Server, Python and Power BI.
+
+I have documented my implementation, SQL scripts, sentiment analysis workflow and Power BI report in this repository.
+
+
 # Repository Structure
 
 ```text
