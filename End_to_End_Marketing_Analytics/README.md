@@ -27,6 +27,8 @@ The analysis was designed to answer key marketing questions such as:
 - How does customer sentiment change over time?
 
 ---
+##Database
+[Database](/MArketingAnalytics.bak)
 
 ## Tools & Technologies
 
