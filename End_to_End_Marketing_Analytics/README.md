@@ -132,7 +132,7 @@ SQL Server prepared and transformed the source data, Python added text-based cus
 The result is an end-to-end marketing analytics solution that moves from raw data preparation through analytical processing to business-facing visualisation.
 
 
-# Acknowledgement
+## Acknowledgement
 This project was developed as a hands-on learning project based on a YouTube tutorial. I followed the project framework to strengthen my practical experience of working through an end-to-end analytics workflow using SQL Server, Python and Power BI.
 
 I have documented my implementation, SQL scripts, sentiment analysis workflow and Power BI report in this repository.
