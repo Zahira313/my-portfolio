@@ -28,7 +28,7 @@ The analysis was designed to answer key marketing questions such as:
 
 ---
 ##Database
-[Database](/MArketingAnalytics.bak)
+[Database](End_to_End_Marketing_Analytics/MArketingAnalytics.bak)
 
 ## Tools & Technologies
 
